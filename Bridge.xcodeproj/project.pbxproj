@@ -58,6 +58,7 @@
 		CEFA3E2B218F92F90091C61E /* Bridge */ = {
 			isa = PBXGroup;
 			children = (
+				CEFA3E40218F93590091C61E /* SettingsBundle.bundle */,
 				CEFA3E2C218F92F90091C61E /* AppDelegate.swift */,
 				CEFA3E2E218F92F90091C61E /* FirstViewController.swift */,
 				CEFA3E30218F92F90091C61E /* SecondViewController.swift */,
@@ -65,7 +66,6 @@
 				CEFA3E35218F92FC0091C61E /* Assets.xcassets */,
 				CEFA3E37218F92FC0091C61E /* LaunchScreen.storyboard */,
 				CEFA3E3A218F92FC0091C61E /* Info.plist */,
-				CEFA3E40218F93590091C61E /* SettingsBundle.bundle */,
 			);
 			path = Bridge;
 			sourceTree = "<group>";
@@ -291,6 +291,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 68L6VVY6NZ;
 				INFOPLIST_FILE = Bridge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +310,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 68L6VVY6NZ;
 				INFOPLIST_FILE = Bridge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

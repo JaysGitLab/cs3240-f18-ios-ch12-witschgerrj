@@ -16,7 +16,7 @@
 			<key>Type</key>
 			<string>PSTextFieldSpecifier</string>
 			<key>Title</key>
-			<string>Commanding Officer</string>
+			<string>CommandingOfficer</string>
 			<key>Key</key>
 			<string>officer</string>
 			<key>AutocapitalizationType</key>
@@ -28,7 +28,7 @@
 			<key>Type</key>
 			<string>PSTextFieldSpecifier</string>
 			<key>Title</key>
-			<string>Authorization Code</string>
+			<string>AuthorizationCode</string>
 			<key>Key</key>
 			<string>authorizationCode</string>
 			<key>IsSecure</key>
@@ -65,6 +65,38 @@
 				<string>Captain</string>
 				<string>Commodore</string>
 			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>WarpDrive</string>
+			<key>Key</key>
+			<string>warp</string>
+			<key>DefaultValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>WarpFactor</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSSliderSpecifier</string>
+			<key>Key</key>
+			<string>warpFactor</string>
+			<key>DefaultValue</key>
+			<integer>5</integer>
+			<key>MinimumValue</key>
+			<integer>1</integer>
+			<key>MaximumValue</key>
+			<integer>10</integer>
+			<key>MinimumValueImage</key>
+			<string>first</string>
+			<key>MaximumValueImage</key>
+			<string>second</string>
 		</dict>
 	</array>
 </dict>
