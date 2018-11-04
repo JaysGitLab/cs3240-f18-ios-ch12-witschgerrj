@@ -98,6 +98,22 @@
 			<key>MaximumValueImage</key>
 			<string>second</string>
 		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Additional Info</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSChildPaneSpecifier</string>
+			<key>Title</key>
+			<string>More Settings</string>
+			<key>Key</key>
+			<string></string>
+			<key>File</key>
+			<string>More</string>
+		</dict>
 	</array>
 </dict>
 </plist>
