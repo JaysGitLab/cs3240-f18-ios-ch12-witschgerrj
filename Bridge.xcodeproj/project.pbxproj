@@ -13,6 +13,7 @@
 		CEFA3E34218F92F90091C61E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFA3E32218F92F90091C61E /* Main.storyboard */; };
 		CEFA3E36218F92FC0091C61E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFA3E35218F92FC0091C61E /* Assets.xcassets */; };
 		CEFA3E39218F92FC0091C61E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFA3E37218F92FC0091C61E /* LaunchScreen.storyboard */; };
+		CEFA3E41218F93590091C61E /* SettingsBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CEFA3E40218F93590091C61E /* SettingsBundle.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CEFA3E35218F92FC0091C61E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEFA3E38218F92FC0091C61E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEFA3E3A218F92FC0091C61E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFA3E40218F93590091C61E /* SettingsBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SettingsBundle.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				CEFA3E35218F92FC0091C61E /* Assets.xcassets */,
 				CEFA3E37218F92FC0091C61E /* LaunchScreen.storyboard */,
 				CEFA3E3A218F92FC0091C61E /* Info.plist */,
+				CEFA3E40218F93590091C61E /* SettingsBundle.bundle */,
 			);
 			path = Bridge;
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEFA3E41218F93590091C61E /* SettingsBundle.bundle in Resources */,
 				CEFA3E39218F92FC0091C61E /* LaunchScreen.storyboard in Resources */,
 				CEFA3E36218F92FC0091C61E /* Assets.xcassets in Resources */,
 				CEFA3E34218F92F90091C61E /* Main.storyboard in Resources */,
