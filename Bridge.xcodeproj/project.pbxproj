@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE068ACE21BE2A6E001471AE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE068ACD21BE2A6E001471AE /* Constants.swift */; };
 		CEFA3E2D218F92F90091C61E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFA3E2C218F92F90091C61E /* AppDelegate.swift */; };
 		CEFA3E2F218F92F90091C61E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFA3E2E218F92F90091C61E /* FirstViewController.swift */; };
 		CEFA3E31218F92F90091C61E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFA3E30218F92F90091C61E /* SecondViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE068ACD21BE2A6E001471AE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		CEFA3E29218F92F90091C61E /* Bridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEFA3E2C218F92F90091C61E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEFA3E2E218F92F90091C61E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				CEFA3E40218F93590091C61E /* Settings.bundle */,
 				CEFA3E2C218F92F90091C61E /* AppDelegate.swift */,
 				CEFA3E2E218F92F90091C61E /* FirstViewController.swift */,
+				CE068ACD21BE2A6E001471AE /* Constants.swift */,
 				CEFA3E30218F92F90091C61E /* SecondViewController.swift */,
 				CEFA3E32218F92F90091C61E /* Main.storyboard */,
 				CEFA3E35218F92FC0091C61E /* Assets.xcassets */,
@@ -145,6 +148,7 @@
 				CEFA3E31218F92F90091C61E /* SecondViewController.swift in Sources */,
 				CEFA3E2D218F92F90091C61E /* AppDelegate.swift in Sources */,
 				CEFA3E2F218F92F90091C61E /* FirstViewController.swift in Sources */,
+				CE068ACE21BE2A6E001471AE /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
